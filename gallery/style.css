@@ -1,0 +1,51 @@
+body {
+    /* background: url('pexels-veeterzy-38136.jpg') no-repeat center center fixed; */
+
+    background-size: cover;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+.blur {
+
+        position: static;
+        left: 0vw;
+        right: 0vw;
+        width: 100vw;
+        background: rgba(225, 225, 225, .1);
+        backdrop-filter: blur(20px);
+        /* -webkit-mask: linear-gradient(#000 0 0), linear-gradient(#000 0 0);
+        -webkit-mask-clip: text, padding-box;
+        -webkit-mask-composite: xor; */
+}
+h1{
+    font-size: 70px ;
+    text-align: center;
+    font-weight: bold;
+    color: #fbfdf5;
+}
+
+.card {
+    border: none;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card img {
+    border-radius: 0.25rem;
+    width: 100%;  /* Fill the container */
+    height: 200px; /* Fixed height */
+    object-fit: cover; /* Maintain aspect ratio and ensure images don't stretch */
+}
+
+.card-body {
+    text-align: center;
+    background-color: #f8f9fa;
+    border-top: 1px solid #ddd;
+    padding: 10px;
+}
+
+.card-text {
+    margin: 0;
+    font-weight: bold;
+    color: black;
+}
